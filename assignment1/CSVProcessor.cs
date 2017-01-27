@@ -60,7 +60,7 @@ namespace assignment1
             string[] parts = line.Split(',');
 
             //Assign each part to a variable- dont have to do this
-            int ItemID = int.Parse(parts[0]);
+            string ItemID = parts[0];
             string ItemDesc = parts[1];
             string ItemPack = parts[2];
 

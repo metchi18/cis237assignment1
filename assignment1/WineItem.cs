@@ -8,7 +8,7 @@ namespace assignment1
 {
     class WineItem
     {
-        private int itemID;
+        private string itemID;
         private string itemDesc;
         private string itemPack;
 
@@ -16,7 +16,7 @@ namespace assignment1
         //Properties
         //*************
 
-        public int ItemID
+        public string ItemID
         {
             get { return itemID; }
             set { itemID = value; }
@@ -45,14 +45,14 @@ namespace assignment1
 
         public override string ToString()
         {
-            return itemID.ToString("C") + "  " + itemDesc + "  " + itemPack;
+            return itemID + "  " + itemDesc + "  " + itemPack;
         }
 
         //****************
         //Constructors
         //****************
 
-        public WineItem(int ItemID, string ItemDesc, string ItemPack)
+        public WineItem(string ItemID, string ItemDesc, string ItemPack)
         {
             itemID = ItemID;
             itemDesc = ItemDesc;

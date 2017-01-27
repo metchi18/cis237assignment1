@@ -10,6 +10,19 @@ namespace assignment1
     {
         string[] WineItems = new string[4000]; //LEFT OFF HERE
 
+        public void AddWineItem()
+        }
+            
+        {
+            
+        }
+       
+        public void SearchWineItems()
+        {
+            
+        }
+
+        
 
     }
 }
